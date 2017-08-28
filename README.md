@@ -24,7 +24,7 @@ Replace ```*phone number*``` with your phone number or any other phone number
 
 ```var nr = *phone number*; Store.Wap.lastseenFind(nr+ '@c.us').then(function(r){ console.log(r)}) //counting when target is online```
 
-**-List All Groups:**
+**-List All Common Groups:**
 
 ```var nr = *phone number*; Store.Wap.commonGroupsFind(nr+ '@c.us').then(function(r){ console.log(r)}) //Amount of groups stored in an Array```
 
