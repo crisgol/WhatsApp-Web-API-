@@ -4,6 +4,9 @@ WhatsApp Web functions
 Here are just some functions you can call to get certain information from phone numbers that are connected to WhatsApp.
 You need to connect to WhatsApp Web in order to use any of the functions below.
 
+Replace ```*phone number*``` with your phone number or any other phone number
+
+
 
 -Profile Pictures:
 
