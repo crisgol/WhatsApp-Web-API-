@@ -8,28 +8,28 @@ Replace ```*phone number*``` with your phone number or any other phone number
 
 
 
--Profile Pictures:
+**-Profile Pictures:**
 
 ```var nr = *phone number*; Store.ProfilePicThumb.find(nr+ '@c.us').then(function(r){ console.log(r)})```
 
--Online/Offline:
+**-Online/Offline:**
 
 ```var nr = *phone number*; Store.Presence.find(nr+ '@c.us').then(function(r){ console.log(r)}) ```
 
--Status:
+**-Status:**
 
 ```var nr = *phone number*; Store.Status._find(nr+ '@c.us').then(function(r){ console.log(r)}) ```
 
--Online Counter
+**-Online Counter**
 
 ```var nr = *phone number*; Store.Wap.lastseenFind(nr+ '@c.us').then(function(r){ console.log(r)}) //counting when target is online```
 
--List All Groups:
+**-List All Groups:**
 
 ```var nr = *phone number*; Store.Wap.commonGroupsFind(nr+ '@c.us').then(function(r){ console.log(r)}) //Amount of groups stored in an Array```
 
 
--Unknown:
+**-Unknown:**
 
 ```var nr = *phone number*; Store.MsgInfo.find(nr+ '@c.us').then(function(r){ console.log(r)})
 var nr = *phone number*; Store.Chat.find(nr+ '@c.us').then(function(r){ console.log(r)})
