@@ -49,7 +49,8 @@ var nr = *phone number*; Store.Msg._findQuery(nr+ '@c.us').then(function(r){ con
 var nr = *phone number*; Store.Msg._hasSynced(nr+ '@c.us').then(function(r){ console.log(r)})
 var nr = *phone number*; Store.Msg._search(nr+ '@c.us').then(function(r){ console.log(r)})
 var nr = *phone number*; Store.Msg.findQuery(nr+ '@c.us').then(function(r){ console.log(r)})
-var nr = *phone number*; Store.Msg(nr+ '@c.us').then(function(r){ console.log(r)})```
+var nr = *phone number*; Store.Msg(nr+ '@c.us').then(function(r){ console.log(r)})
+```
 
 **-All "Wap" functions**
 ```-acceptGroupInvite:ƒ (e)
