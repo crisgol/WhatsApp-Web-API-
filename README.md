@@ -12,6 +12,10 @@ Replace ```*phone number*``` with your phone number or any other phone number
 
 ```var nr = *phone number*; Store.ProfilePicThumb.find(nr+ '@c.us').then(function(r){ console.log(r)})```
 
+**-Get Username**
+
+```var nr = *phone number*; Store.Contact._find(nr+ '@c.us').then(function(r){ console.log(r)})```
+
 **-Online/Offline:**
 
 ```var nr = *phone number*; Store.Presence.find(nr+ '@c.us').then(function(r){ console.log(r)}) ```
@@ -27,6 +31,12 @@ Replace ```*phone number*``` with your phone number or any other phone number
 **-List All Common Groups:**
 
 ```var nr = *phone number*; Store.Wap.commonGroupsFind(nr+ '@c.us').then(function(r){ console.log(r)}) //Amount of groups stored in an Array```
+
+**-Show Status Privacy**
+
+```var nr = *phone number* ; Store.Wap.getStatusPrivacy(nr+ '@c.us').then(function(r){ console.log(r)})```
+
+
 
 
 **-Unknown:**
